@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Fortune Cookie Generator</title>
+</head>
+
+<body>
+    <h1>Fortune Cookie Generator</h1>
+    <div class="container1">
+        <form id="fortuneForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" required>
+            <button type="submit">Get Fortune</button>
+        </form>
+    </div>
+    <div class="container2" hidden>
+        <div class="fortuneBox">
+            <p id="fortuneMessage"></p>
+            <button id="btn">New Fortune</button>
+        </div>
+    </div>
+    <script src="./main/app.js"></script>
+</body>
+
+</html>
