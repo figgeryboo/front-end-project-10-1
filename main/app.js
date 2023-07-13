@@ -14,7 +14,7 @@ function getFortune(name) {
 		.then(function (data) {
 			const fortune = data.answer;
 			const fortuneMessage =
-				'Hello, ' + name + '! Here is your fortune... ' + fortune;
+				'Hello, ' + name + '! Here is your fortune! ... ' + fortune;
 
 			const img = document.createElement('img');
 			img.src = 'main/images/fortunecookie.png';
